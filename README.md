@@ -1,5 +1,8 @@
 # <p align="center">DevQuine</p>
 
+
+<p align="center"><img src="https://github.com/SusheelThapa/DevQuine/assets/83917129/ca934ff8-d3ea-495e-a155-3f9b1d652ff7" width="250" height="250"/></p>
+
 <p align="center">
     <p align="center">
         <a href="https://github.com/SusheelThapa/DevQuine/" target="blank">
@@ -31,26 +34,32 @@
 
 ## Table of Contents
 
-- Features
-- Installation
-- Usage
-- Dependencies
-- Contributing
-- License
+
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
-- AI-Powered Article Generation
+- **AI-Powered Article Generation**
 
   Utilizes OpenAI to generate high-quality articles for the developer community.
 
-- User-Friendly GUI
+- **User-Friendly GUI**
 
   Offers a simple and intuitive graphical user interface for seamless interaction.
 
-- Typing Effect
+- **Typing Effect**
 
   Enhances the user experience with a dynamic typing effect during article generation.
+
+## Demo
+
+https://github.com/SusheelThapa/DevQuine/assets/83917129/b4f113bf-fc7c-4776-abf9-7b54cbdfc44f
 
 ## Installation
 
