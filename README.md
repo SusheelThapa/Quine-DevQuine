@@ -6,26 +6,26 @@
 <p align="center">
     <p align="center">
         <a href="https://github.com/SusheelThapa/DevQuine/" target="blank">
-            <img src="https://img.shields.io/github/watchers/SusheelThapa/command?style=for-the-badge&logo=appveyor" alt="Watchers"/>
+            <img src="https://img.shields.io/github/watchers/SusheelThapa/DevQuine?style=for-the-badge&logo=appveyor" alt="Watchers"/>
         </a>
         <a href="https://github.com/SusheelThapa/DevQuine/fork" target="blank">
-            <img src="https://img.shields.io/github/forks/SusheelThapa/command?style=for-the-badge&logo=appveyor" alt="Forks"/>
+            <img src="https://img.shields.io/github/forks/SusheelThapa/DevQuine?style=for-the-badge&logo=appveyor" alt="Forks"/>
         </a>
         <a href="https://github.com/SusheelThapa/DevQuine/stargazers" target="blank">
-            <img src="https://img.shields.io/github/stars/SusheelThapa/command?style=for-the-badge&logo=appveyor" alt="Star"/>
+            <img src="https://img.shields.io/github/stars/SusheelThapa/DevQuine?style=for-the-badge&logo=appveyor" alt="Star"/>
         </a>
     </p>
     <p align="center">
         <a href="https://github.com/SusheelThapa/DevQuine/issues" target="blank">
-            <img src="https://img.shields.io/github/issues/SusheelThapa/command.svg?style=for-the-badge&logo=appveyor" alt="Issue"/>
+            <img src="https://img.shields.io/github/issues/SusheelThapa/DevQuine.svg?style=for-the-badge&logo=appveyor" alt="Issue"/>
         </a>
         <a href="https://github.com/SusheelThapa/DevQuine/pulls" target="blank">
-            <img src="https://img.shields.io/github/issues-pr/SusheelThapa/command.svg?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+            <img src="https://img.shields.io/github/issues-pr/SusheelThapa/DevQuine.svg?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
         </a>
     </p>
     <p align="center">
         <a href="https://github.com/SusheelThapa/DevQuine/blob/master/LICENSE" target="blank">
-            <img src="https://img.shields.io/github/license/SusheelThapa/command?style=for-the-badge&logo=appveyor" alt="License" />
+            <img src="https://img.shields.io/github/license/SusheelThapa/DevQuine?style=for-the-badge&logo=appveyor" alt="License" />
         </a>
     </p>
 </p>
