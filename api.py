@@ -1,7 +1,10 @@
-import openai
+from openai import OpenAI
 
 
-openai.api_key = "your-openai-api-key"
+client = OpenAI(
+    base_url='https://api.naga.ac/v1',
+    api_key='your-api-key'
+)
 
 
 def generate_article_outline(title, notes, tags, temperature=0.7):
@@ -25,15 +28,14 @@ def generate_article_outline(title, notes, tags, temperature=0.7):
         prompt = f"Title: {title}\nTags: {tag_string}\nNotes: {notes}\n\nCreate a detailed outline for an article based on the above information:"
 
         # Call the OpenAI API to generate the outline
-        response = openai.Completion.create(
-            engine="text-davinci-003",
-            prompt=prompt,
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{'role': 'user', 'content': prompt}],
             max_tokens=200,  # Adjust max_tokens as needed for the outline
             temperature=temperature,
         )
-
         # Return the text portion of the response, stripped of any leading/trailing whitespace
-        return response.choices[0].text.strip()
+        return response.choices[0].message.content.strip()
     except Exception as e:
         # Return the exception message in case of failure
         return str(e)
@@ -57,15 +59,15 @@ def generate_full_article_from_outline(outline, temperature=0.7):
         )
 
         # Call the OpenAI API to generate the full article
-        response = openai.Completion.create(
-            engine="text-davinci-003",
-            prompt=prompt,
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{'role': 'user', 'content': prompt}],
             max_tokens=800,  # Adjust max_tokens as needed for the full article
             temperature=temperature,
         )
 
         # Return the text portion of the response, stripped of any leading/trailing whitespace
-        return response.choices[0].text.strip()
+        return response.choices[0].message.content.strip()
     except Exception as e:
         # Return the exception message in case of failure
         return str(e)
